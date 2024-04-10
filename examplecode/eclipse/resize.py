@@ -34,7 +34,7 @@ def resize_images(directory):
     print('Image resizing complete.')
 
 # Specify the directory containing the images
-directory = '/Users/briantoone/Downloads/frames'
+directory = 'c:/users/brtoone/Downloads/frames'
 
 # Call the resize_images function
 resize_images(directory)

@@ -15,7 +15,7 @@ def load_images(directory):
     return np.array(images)
 
 # Specify the directory containing the images
-image_directory = "/Users/briantoone/Downloads/frames"
+image_directory = "c:/Users/brtoone/Downloads/frames"
 
 # Load images from the directory
 dataset = load_images(image_directory)
