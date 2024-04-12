@@ -230,7 +230,7 @@ def train(g_model, d_model, gan_model, dataset, latent_dim, n_epochs=200, n_batc
 			# summarize loss on this batch
 			print('>%d, %d/%d, d1=%.3f, d2=%.3f g=%.3f' %
 				(i+1, j+1, bat_per_epo, d_loss1, d_loss2, g_loss))
-			plt.imshow((X_fake[0]+1)/2); plt.show()
+			#plt.imshow((X_fake[0]+1)/2); plt.show()
 		# evaluate the model performance, sometimes
 		if (i+1) % 10 == 0:
 			summarize_performance(i, g_model, d_model, dataset, latent_dim)
