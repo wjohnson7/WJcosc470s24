@@ -21,7 +21,7 @@ def extract_frames(video_path, output_dir):
         count += 1
 
 # Example usage
-video_path = 'c:/users/brtoone/Downloads/AdobeStock_38644151_Video_HD_Preview.mov'
-output_dir = 'c:/users/brtoone/Downloads/frames'
+video_path = '/Users/briantoone/Downloads/AdobeStock_38644151_Video_HD_Preview.mov'
+output_dir = '/Users/briantoone/Downloads/frames'
 
 extract_frames(video_path, output_dir)
